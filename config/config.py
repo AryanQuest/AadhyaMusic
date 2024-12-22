@@ -11,16 +11,16 @@ API_ID = getenv("API_ID", None)
 API_HASH = getenv("API_HASH", None)
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "itzAsuraa")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@Xd039")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "TanuMusicxBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "@AadhyaMusicBot")
 
 #❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "TANU MUSIC")
+BOT_NAME = getenv("BOT_NAME", "Aadhya MUSIC")
 
 #❖ get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "TANU_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "Aadhya_ASS")
 
 #❖ Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -31,10 +31,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
 #❖  Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002100219353"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002417760745"))
 
 #❖ Get this value from @MissRose_bot on Telegram by /id
-OWNER_ID = getenv("OWNER_ID", "7453278496")
+OWNER_ID = getenv("OWNER_ID", "5139190819")
 
 #❖  Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -59,8 +59,8 @@ PRIVACY_LINK = getenv(
 )
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/C0DE_SEARCH")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AsuraaSupports")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/XD_connection")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/xd_support0")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
